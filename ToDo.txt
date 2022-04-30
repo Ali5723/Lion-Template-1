@@ -1,0 +1,13 @@
+[x] header      section  
+
+[x] landing     section  
+
+[x] services    section  
+
+[x] portfolio   section 
+
+[x] about       section  
+
+[x] contact     section  
+
+[x] footer      section  

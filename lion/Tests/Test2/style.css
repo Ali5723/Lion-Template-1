@@ -1,0 +1,15 @@
+.links :first-child,
+.links :last-child {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 5px; }
+.links :nth-child(2) {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+header {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    height: 32px;
+    width: auto;
+  }
+  .links {
+    direction: rtl;
+    :first-child,
+    :last-child {
+      width: 35px;
+      height: 3px;
+      background-color: black;
+      margin: 5px 0;
+      border-radius: 5px;
+    }
+    :nth-child(2) {
+      width: 20px;
+      height: 3px;
+      background-color: black;
+      margin: 5px 0;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+    }
+    &:hover :nth-child(2) {
+      width: 35px;
+    }
+  }
+  .menu {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+    list-style: none;
+    text-align: center;
+    display: none;
+    hr {
+      border: 1px solid #d9d8d8;
+    }
+    li a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

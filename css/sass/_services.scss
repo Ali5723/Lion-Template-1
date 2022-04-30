@@ -1,0 +1,45 @@
+main .services {
+  .service {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-bottom: $paddingBottom;
+    .srvs.srvs1 {
+      padding-left: 20px;
+      .srv {
+        .content {
+          h1 {
+            color: $color4;
+            font-size: 20px;
+          }
+          p {
+            color: $color5;
+            font-size: 15px;
+          }
+        }
+        width: 330px;
+      }
+    }
+    .srvs.srvs2 {
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .demo {
+          height: 300px;
+          width: 110px;
+          background: $color2;
+          position: relative;
+          .child {
+            width: 60px;
+            height: 220px;
+            background: white;
+            position: absolute;
+            top: 40px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .demo {
+    height: 300px;
+    width: 130px;
+    background: blue;
+    position: relative;
+    .child {
+      width: 60px;
+      height: 200px;
+      background: white;
+      position: absolute;
+      top: 50px;
+    }
+  }
+}

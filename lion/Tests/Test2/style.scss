@@ -1,0 +1,17 @@
+.links {
+  :first-child,
+  :last-child {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  :nth-child(2){
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,32 @@
+main .contact {
+    .content {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        h1 {
+            color: $color2;
+            font-size: 55px;
+            font-weight: 800;
+            padding-left: 250px;
+        }
+        h2 {
+            color: $color1;
+            font-size: 50px;
+            font-weight: 800;
+            padding-left: 300px;
+        }
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            color: $color6;
+            padding-left: 350px;
+            display: inline;
+        }
+        .icons {
+            padding-left: 20px;
+            display: inline;
+            .icon {
+                padding-right: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+main .portfolio {
+  //   img {
+  //     height: 200px;
+  //   }
+  #content {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: $paddingBottom;
+    padding-left: 60px;
+    padding-top: 150px;
+    .content {
+      h1 {
+        color: $color4;
+        font-size: 20px;
+      }
+      p {
+        color: $color5;
+        font-size: 15px;
+      }
+      width: 400px;
+    }
+  }
+}
